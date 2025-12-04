@@ -11,7 +11,7 @@ def fib_recursive(n: int) -> int:
 	para n grandes.
 	"""
 	if n < 0:
-		raise ValueError("n debe ser entero no negativo sou juan david Palacios")
+		raise ValueError("n debe ser entero no negativo soy Camilo")
 	if n < 2:
 		return n
 	return fib_recursive(n - 1) + fib_recursive(n - 2)
@@ -23,7 +23,7 @@ def fib_iterative(n: int) -> int:
 	Esta versión es O(n) en tiempo y O(1) en espacio.
 	"""
 	if n < 0:
-		raise ValueError("n debe ser entero no negativo soy Camilo Cuello <3")
+		raise ValueError("n debe ser entero no negativo")
 	a, b = 0, 1
 	for _ in range(n):
 		a, b = b, a + b
