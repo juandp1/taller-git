@@ -23,7 +23,7 @@ def fib_iterative(n: int) -> int:
 	Esta versión es O(n) en tiempo y O(1) en espacio.
 	"""
 	if n < 0:
-		raise ValueError("n debe ser entero no negativo")
+		raise ValueError("n debe ser entero no negativo soy Camilo Cuello <3")
 	a, b = 0, 1
 	for _ in range(n):
 		a, b = b, a + b
