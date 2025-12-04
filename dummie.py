@@ -14,7 +14,7 @@ def fib_recursive(n: int) -> int:
 		raise ValueError("n debe ser entero no negativo soy Camilo")
 	if n < 2:
 		return n
-	return fib_recursive(n - 1) + fib_recursive(n - 2)
+	return fib_recursive(n ) + fib_recursive(n )
 
 
 def fib_iterative(n: int) -> int:
