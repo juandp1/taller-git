@@ -19,6 +19,9 @@ def fib_recursive(n: int) -> int:
 
 def fib_iterative(n: int) -> int:
 	"""Devuelve el n-ésimo número de Fibonacci (0-indexado) de forma iterativa.
+	hollssssss sssss 
+	ddddd
+	
 
 	Esta versión es O(n) en tiempo y O(1) en espacio.
 	"""
